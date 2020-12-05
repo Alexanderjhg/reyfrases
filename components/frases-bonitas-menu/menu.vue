@@ -25,13 +25,13 @@ export default {
   data () {
     return {
       secciones: [
-        { title: 'Frases Bonitas', text: 'Entra a la seccion de frases de amor.', link: 'https://reyfrases.com/frases-bonitas' },
-        { title: 'Frases de la vida', text: 'Frases de la vida misma.', link: 'https://reyfrases.com/frases-de/la-vida' },
-        { title: 'Frases para abuelos fallecidos', text: 'Para los mas viejitos de la casa.', link: 'https://reyfrases.com/frases-para/abuelos/frases-para-mi-abuelo-fallecido-que-esta-en-el-cielo' },
-        { title: 'Frases para abuelas fallecidas', text: 'Sea whatsapp o facebook, puedes compartirlas todas.!', link: 'https://reyfrases.com/frases-para/abuelos/descansa-en-paz-abuelita' },
-        { title: 'Palabras con za e zi zo zu', text: 'Entre amigos y fiestas.', link: 'https://reyfrases.com/palabras/con-/z-y-za-ze-zi-zo-zu' },
-        { title: 'Frases para tu novio a distancia', text: 'Ese amor de tu vida.', link: 'https://reyfrases.com/mensajes/de/buenas-noches/para/mi-novio/a-distancia' },
-        { title: 'Frases para tu novia largos', text: 'Tan especial es tu novio, ¿Verdad?.', link: 'https://reyfrases.com/mensajes/de/buenas-noches/para/mi-novia/largos' },
+        { title: 'Frases Bonitas', text: 'Entra a la seccion de frases de amor.', link: 'https://reyfrases.com/frases-bonitas/' },
+        { title: 'Frases de la vida', text: 'Frases de la vida misma.', link: 'https://reyfrases.com/frases-de/la-vida/' },
+        { title: 'Frases para abuelos fallecidos', text: 'Para los mas viejitos de la casa.', link: 'https://reyfrases.com/frases-para/abuelos/frases-para-mi-abuelo-fallecido-que-esta-en-el-cielo/' },
+        { title: 'Frases para abuelas fallecidas', text: 'Sea whatsapp o facebook, puedes compartirlas todas.!', link: 'https://reyfrases.com/frases-para/abuelos/descansa-en-paz-abuelita/' },
+        { title: 'Palabras con za e zi zo zu', text: 'Entre amigos y fiestas.', link: 'https://reyfrases.com/palabras/con-/z-y-za-ze-zi-zo-zu/' },
+        { title: 'Frases para tu novio a distancia', text: 'Ese amor de tu vida.', link: 'https://reyfrases.com/mensajes/de/buenas-noches/para/mi-novio/a-distancia/' },
+        { title: 'Frases para tu novia largos', text: 'Tan especial es tu novio, ¿Verdad?.', link: 'https://reyfrases.com/mensajes/de/buenas-noches/para/mi-novia/largos/' },
         { title: 'Home', text: 'Reyfrases', link: 'https://reyfrases.com/' }
       ]
     }
