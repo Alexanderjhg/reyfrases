@@ -1,6 +1,11 @@
 <template>
   <div>
     <Nuxt />
+    <footer class="mt-4 mb-4 text-center">
+      <b-link class="mx-3" href="https://reyfrases.com/aviso-legal">Aviso Legal</b-link>
+      <b-link class="mx-3" href="https://reyfrases.com/politica-de-cookies">Politica de cookies</b-link>
+      <b-link class="mx-3" href="https://reyfrases.com/politica-de-privacidad">Politica de privacidad</b-link>
+    </footer>
   </div>
 </template>
 

@@ -6,7 +6,7 @@
     <section class="text-center py-5 container">
       <b-row>
         <b-col sm="1" md="12">
-          <h1>Frase.me</h1>
+          <h1>Reyfrases.com</h1>
           <p>Las mejores <b>frases bonitas</b> estan aqui en esta <b>aplicacion de frases</b>.</p>
           <p>Aqui un listado de las frases mas buscadas en internet para compartir con amigos o en redes sociales.</p>
           <p>Tambien te dejamos algunas frases bonitas muy <b>especiales para ti.!</b> puedes copiar y pegar facilmente con tan solo un click.!</p>
@@ -14,7 +14,7 @@
       </b-row>
     </section>
     <!-- card con las frases para compartir -->
-    <section>
+    <!-- <section>
       <div>
         <b-row class="mx-2">
           <b-col sm="1" md="4" class="py-2" v-for="frases in frases" :key="frases.key">
@@ -28,7 +28,7 @@
           </b-col>
         </b-row>
       </div>
-    </section>
+    </section> -->
     <!-- secciones de frases -->
     <section>
       <div>
@@ -47,7 +47,7 @@
       </div>
     </section>
     <!-- Seccion de imagenes -->
-    <section>
+    <!-- <section>
       <div>
         <div class="text-center py-5 container">
           <b-row>
@@ -65,31 +65,7 @@
           </b-col>
         </b-row>
       </div>
-    </section>
-    <!-- Mas frases para finalizar -->
-    <section class="text-center py-5 container">
-      <b-row>
-        <b-col sm="1" md="12">
-          <h2>Mas frases lindas y bellas para compartir</h2>
-          <p>Para finalizar, un listado completo de una recopilacion de las mejores citas.</p>
-          <p>Comparte esta pagina web si te ha gustado, asi me ayudara mucho a mi para seguir trabajando en esta pagina web.</p>
-          <p>Quiero convertirla en una red social para frases bonitas, seamos una comunidad grande.!</p>
-        </b-col>
-      </b-row>
-      <div>
-        <b-row class="mx-2">
-          <b-col sm="1" md="4" class="py-2" v-for="frases2 in frases2" :key="frases2.key">
-            <b-card class="text-center">
-              <blockquote :cite="frases2.text" class="blockquote">
-                <span class="text-center">{{ frases2.text }}</span>
-              </blockquote>
-              <hr />
-              <b-button variant="primary">Copiar</b-button>
-            </b-card>
-          </b-col>
-        </b-row>
-      </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
@@ -128,8 +104,8 @@ export default {
     }
   },
   head: {
-    title: 'Frase.me | Frases de amor y bonitas',
-    // titleTemplate: 'Frase.me | %s',
+    title: 'Reyfrases.com | Frases de amor y bonitas',
+    // titleTemplate: 'Reyfrases.com | %s',
     htmlAttrs: {
       lang: 'es',
       amp: false
@@ -144,7 +120,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Frase.me | descarga las mejores frases bonitas y de amor con un solo click. Facil y rapido.!'
+          'Reyfrases.com | descarga las mejores frases bonitas y de amor con un solo click. Facil y rapido.!'
       }
     ],
     // link: [
@@ -163,7 +139,7 @@ export default {
     ]
   }
   // head: {
-  //   description: 'Frase.me | descarga las mejores frases bonitas y de amor con un solo click. Facil y rapido.!',
+  //   description: 'Reyfrases.com | descarga las mejores frases bonitas y de amor con un solo click. Facil y rapido.!',
   //   meta: [
   //     { charset: 'utf-8' },
   //     { name: 'viewport', content: 'width=device-width, initial-scale=1' },

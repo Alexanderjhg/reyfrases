@@ -240,7 +240,7 @@
     </section>
     <b-modal id="modal1" hide-footer>
       <template #modal-title>
-          <div class="text-center"><h5>Frase.me</h5></div>
+          <div class="text-center"><h5>Reyfrases.com</h5></div>
       </template>
       <div class="d-block text-center">
         <p class="h5">Copiando Frase...</p>
@@ -409,7 +409,7 @@ export default {
     }
   },
   head: {
-    title: 'Frase.me',
+    title: 'Reyfrases.com',
     titleTemplate: '🥇Descansa en paz abuelita frases, mensajes y palabras para abuelas | %s',
     htmlAttrs: {
       lang: 'es',

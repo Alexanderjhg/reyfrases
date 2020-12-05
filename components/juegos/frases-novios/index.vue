@@ -45,21 +45,7 @@
                   <button type="button" @click="(Resetear())" class="btn btn-success">Jugar Otra Vez</button>
                 </div>
               </div>
-              <b-card title="Que tan amoroso eres segun la Frase de amor que elijas" class=" my-2 targeta-amor text-center">
-                <button type="button" v-b-modal.modal-scrollable class="btn btn-warning">Abrir test de Amor</button>
-            </b-card>
-            <b-card title="Que tan inteligente eres segun la frase de vida que elijas" class=" my-2 targeta-de-la-vida text-center">
-                <button type="button" v-b-modal.modal-scrollable class="btn btn-warning">Abrir test de La vida</button>
-            </b-card>
-            <b-card title="Que tanto quieres a tus seres queridos segun la frase que elijas" class=" my-2 targeta-seres-queridos text-center">
-                <button type="button" v-b-modal.modal-scrollable class="btn btn-warning">Abrir test de Seres queridos</button>
-            </b-card>
-            <b-card title="Que hablan de ti segun la frase de amigos que elijas" class=" my-2 targeta-que-hablan text-center">
-                <button type="button" v-b-modal.modal-scrollable class="btn btn-warning">Abrir test de los amigos</button>
-            </b-card>
-            <b-card title="Que tan buen amigo eres segun la frase que escojas" class=" my-2 targeta-de-amigos text-center">
-                <button type="button" v-b-modal.modal-scrollable class="btn btn-warning">Abrir test de hermandad</button>
-            </b-card>
+              <tests></tests>
             </b-tab>
         </b-tabs>
         </b-modal>
@@ -80,7 +66,11 @@
 </template>
 
 <script>
+import Tests from '@/components/juegos/tests-menu/index.vue'
 export default {
+  components: {
+    Tests
+  },
   data () {
     return {
       resultadoFrase: null,

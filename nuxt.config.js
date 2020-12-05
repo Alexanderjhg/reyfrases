@@ -1,8 +1,8 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Frase.me | Frases de amor y bonitas',
-    // titleTemplate: 'Frase.me | %s',
+    title: 'Reyfrases.com | Frases de amor y bonitas',
+    // titleTemplate: 'Reyfrases.com | %s',
     htmlAttrs: {
       lang: 'es',
       amp: false
@@ -17,9 +17,21 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Frase.me | descarga las mejores frases bonitas y de amor con un solo click. Facil y rapido.!'
+          'Reyfrases.com | descarga las mejores frases bonitas y de amor con un solo click. Facil y rapido.!'
       }
-    ],
+    ]
+    // script: [
+    //   {
+    //     src: 'https://www.googletagmanager.com/gtag/js?id=G-0JP2HXMEJ1',
+    //     async: true
+    //   }
+    //   <script>
+    //     window.dataLayer = window.dataLayer || [];
+    //     function gtag(){dataLayer.push(arguments);}
+    //     gtag('js', new Date());
+
+    //     gtag('config', 'G-0JP2HXMEJ1');
+    //   </script>
     // link: [
     //   {
     //     rel: 'stylesheet',
@@ -27,12 +39,6 @@ export default {
     //   },
     //   { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     // ],
-    // script: [
-    //   {
-    //     src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js',
-    //     async: true,
-    //     defer: true
-    //   }
     // ]
   },
 
@@ -42,6 +48,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    { src: '~plugins/ga.js', mode: 'client' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

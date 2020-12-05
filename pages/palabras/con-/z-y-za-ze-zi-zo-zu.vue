@@ -332,7 +332,7 @@ export default {
     }
   },
   head: {
-    title: 'Frase.me',
+    title: 'Reyfrases.com',
     titleTemplate: '🥇 Palabras con za ze zi zo zu ordenadas alfabeticamente | %s',
     htmlAttrs: {
       lang: 'es',
