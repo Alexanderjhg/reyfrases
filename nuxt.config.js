@@ -3,6 +3,17 @@ export default {
   head: {
     title: 'Reyfrases.com | Frases de amor y bonitas',
     // titleTemplate: 'Reyfrases.com | %s',
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-0JP2HXMEJ1',
+        async: true
+      },
+      {
+        innerHTML: 'window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag( "js" , new Date()); gtag( "config" , "G-0NGESNM5HL" ); ',
+        async: true
+      }
+    ],
+    __dangerouslyDisableSanitizers : [ 'script' ],
     htmlAttrs: {
       lang: 'es',
       amp: false
@@ -19,27 +30,14 @@ export default {
         content:
           'Reyfrases.com | descarga las mejores frases bonitas y de amor con un solo click. Facil y rapido.!'
       }
+    ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Nunito&display=swap'
+      },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
-    // script: [
-    //   {
-    //     src: 'https://www.googletagmanager.com/gtag/js?id=G-0JP2HXMEJ1',
-    //     async: true
-    //   }
-    //   <script>
-    //     window.dataLayer = window.dataLayer || [];
-    //     function gtag(){dataLayer.push(arguments);}
-    //     gtag('js', new Date());
-
-    //     gtag('config', 'G-0JP2HXMEJ1');
-    //   </script>
-    // link: [
-    //   {
-    //     rel: 'stylesheet',
-    //     href: 'https://fonts.googleapis.com/css?family=Nunito&display=swap'
-    //   },
-    //   { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    // ],
-    // ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
