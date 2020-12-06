@@ -420,8 +420,7 @@ export default {
     title: 'Reyfrases.com',
     titleTemplate: '🥇 Mensajes de buenas noches para mi novia largos, frases y palabras | %s',
     htmlAttrs: {
-      lang: 'es',
-      amp: false
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },

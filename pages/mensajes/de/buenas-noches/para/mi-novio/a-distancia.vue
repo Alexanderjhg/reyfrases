@@ -416,8 +416,7 @@ export default {
     title: 'Reyfrases.com',
     titleTemplate: '🥇 Frases mensajes y cartas de buenas noches para mi novio a distancia | %s',
     htmlAttrs: {
-      lang: 'es',
-      amp: false
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },

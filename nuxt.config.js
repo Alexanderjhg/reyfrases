@@ -15,8 +15,7 @@ export default {
     ],
     __dangerouslyDisableSanitizers : [ 'script' ],
     htmlAttrs: {
-      lang: 'es',
-      amp: false
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },

@@ -416,8 +416,7 @@ export default {
     title: 'Reyfrases.com',
     titleTemplate: 'Frases para mi abuelo fallecido que esta en el cielo | %s',
     htmlAttrs: {
-      lang: 'es',
-      amp: false
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },

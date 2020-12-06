@@ -412,8 +412,7 @@ export default {
     title: 'Reyfrases.com',
     titleTemplate: '🥇Descansa en paz abuelita frases, mensajes y palabras para abuelas | %s',
     htmlAttrs: {
-      lang: 'es',
-      amp: false
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },

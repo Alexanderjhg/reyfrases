@@ -417,8 +417,7 @@ export default {
     title: 'Reyfrases.com',
     titleTemplate: '🥇 Frases de la vida descubre cual es tu frase | %s',
     htmlAttrs: {
-      lang: 'es',
-      amp: false
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },

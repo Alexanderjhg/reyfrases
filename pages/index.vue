@@ -107,8 +107,7 @@ export default {
     title: 'Reyfrases.com | Frases de amor y bonitas',
     // titleTemplate: 'Reyfrases.com | %s',
     htmlAttrs: {
-      lang: 'es',
-      amp: false
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },
