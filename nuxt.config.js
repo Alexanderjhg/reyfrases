@@ -9,7 +9,7 @@ export default {
         async: true
       },
       {
-        innerHTML: 'window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag( "js" , new Date()); gtag( "config" , "G-0NGESNM5HL" ); ',
+        innerHTML: 'window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag( "js" , new Date()); gtag( "config" , "G-0JP2HXMEJ1" ); ',
         async: true
       }
     ],
