@@ -420,24 +420,12 @@ export default {
       lang: 'es'
     },
     meta: [
-      { charset: 'utf-8' },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
       {
         hid: 'description',
         name: 'description',
         content: '‎✅ Frases de la vida, Mensajes de la vida y palabras de la vida, ‎✅ Descubre cual es tu frase o cita ideal con test de frases | Frases.me'
       }
     ],
-    // link: [
-    //   {
-    //     rel: 'stylesheet',
-    //     href: 'https://fonts.googleapis.com/css?family=Nunito&display=swap'
-    //   },
-    //   { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    // ],
     script: [
       {
         src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js',

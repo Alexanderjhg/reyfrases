@@ -110,11 +110,6 @@ export default {
       lang: 'es'
     },
     meta: [
-      { charset: 'utf-8' },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
       {
         hid: 'description',
         name: 'description',
@@ -122,13 +117,6 @@ export default {
           'Reyfrases.com | descarga las mejores frases bonitas y de amor con un solo click. Facil y rapido.!'
       }
     ],
-    // link: [
-    //   {
-    //     rel: 'stylesheet',
-    //     href: 'https://fonts.googleapis.com/css?family=Nunito&display=swap'
-    //   },
-    //   { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    // ],
     script: [
       {
         src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js',
@@ -137,16 +125,5 @@ export default {
       }
     ]
   }
-  // head: {
-  //   description: 'Reyfrases.com | descarga las mejores frases bonitas y de amor con un solo click. Facil y rapido.!',
-  //   meta: [
-  //     { charset: 'utf-8' },
-  //     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-  //     { hid: 'description', name: 'description', content: '' }
-  //   ],
-  //   link: [
-  //     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-  //   ]
-  // }
 }
 </script>

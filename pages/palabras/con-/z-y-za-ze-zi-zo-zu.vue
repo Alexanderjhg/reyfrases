@@ -338,24 +338,12 @@ export default {
       lang: 'es'
     },
     meta: [
-      { charset: 'utf-8' },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
       {
         hid: 'description',
         name: 'description',
         content: '✅ Encantado de presentarte las palabras con za ze zi zo zu, ✅ palabras con za zo zu, palabras con ze zi y palabras con zo y zu | Frases.me'
       }
     ],
-    // link: [
-    //   {
-    //     rel: 'stylesheet',
-    //     href: 'https://fonts.googleapis.com/css?family=Nunito&display=swap'
-    //   },
-    //   { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    // ],
     script: [
       {
         src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js',

@@ -423,24 +423,12 @@ export default {
       lang: 'es'
     },
     meta: [
-      { charset: 'utf-8' },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
       {
         hid: 'description',
         name: 'description',
         content: '‎✅ Frases, palabras y mensajes de buenas noches para mi novia largos, ‎✅ Las mejores cartas y poemas para dedicar | Frases.me'
       }
     ],
-    // link: [
-    //   {
-    //     rel: 'stylesheet',
-    //     href: 'https://fonts.googleapis.com/css?family=Nunito&display=swap'
-    //   },
-    //   { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    // ],
     script: [
       {
         src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js',
