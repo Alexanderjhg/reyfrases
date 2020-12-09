@@ -14,9 +14,10 @@
           </b-col>
         </b-row>
       </div>
+      <Juego1></Juego1>
     </section>
     <section class="text-center py-5">
-      <div class="container ">
+      <div class="container">
         <b-row>
           <b-col>
             <h2>Palabras con za zo zu</h2>
@@ -73,6 +74,7 @@
           </div>
         </div>
       </div>
+      <Juego2></Juego2>
     </section>
     <section>
       <div>
@@ -322,9 +324,13 @@
 
 <script>
 import Nav from '@/components/esencial/nav.vue'
+import Juego1 from '@/components/juegos/genio/index'
+import Juego2 from '@/components/juegos/genio/index2'
 export default {
   components: {
-    Nav
+    Nav,
+    Juego1,
+    Juego2
   },
   data () {
     return {
