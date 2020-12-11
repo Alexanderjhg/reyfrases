@@ -4,3 +4,4 @@ Disallow: /politica-de-cookies
 Disallow: /politica-de-privacidad
 Disallow: /_nuxt/
 Allow: /sitemap.xml
+Allow: /sitemap-frases-bonitas.xml

@@ -5,6 +5,11 @@ export default {
     // titleTemplate: 'Reyfrases.com | %s',
     script: [
       {
+        'data-ad-client': 'ca-pub-4340699087678876',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        async: true
+      },
+      {
         src: 'https://www.googletagmanager.com/gtag/js?id=G-0JP2HXMEJ1',
         async: true
       },

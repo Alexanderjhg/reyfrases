@@ -62,7 +62,7 @@
           </div>
         </div>
         <!-- Menu principal de {{ fraseClave }} -->
-        <Menu></Menu>
+        <SubMenu></SubMenu>
       </div>
     </section>
     <!-- Imaginacion -->
@@ -239,11 +239,11 @@
 
 <script>
 import Nav from '@/components/esencial/nav.vue'
-import Menu from '@/components/frases-bonitas-menu/menu.vue'
+import SubMenu from '@/components/frases-bonitas-menu/sub-menu.vue'
 import Juego from '@/components/juegos/frases-bonitas/index.vue'
 export default {
   components: {
-    Menu,
+    SubMenu,
     Nav,
     Juego
   },
@@ -397,14 +397,13 @@ export default {
     title: 'Reyfrases.com',
     titleTemplate: 'Frases bonitas | %s',
     htmlAttrs: {
-      lang: 'es',
-      amp: false
+      lang: 'es'
     },
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'Dedica Frases Bonitas y compartelas en las redes sociales y con tus amigos. Citas, Mensajes, Poemas en Frases.me'
+        content: 'Dedica Frases Bonitas y compartelas en las redes sociales y con tus amigos. Citas, Mensajes, Poemas en Reyfrases.com'
       }
     ],
     script: [
