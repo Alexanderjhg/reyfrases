@@ -51,7 +51,7 @@
         </b-modal>
         <b-modal id="resultado2" hide-footer>
             <template #modal-title>
-                <div class="text-center"><h5>Frase.me</h5></div>
+                <div class="text-center"><h5>Reyfrases.com</h5></div>
             </template>
             <div class="d-block text-center">
             <pre class="h5" v-if="x">{{ resultadoFrase }}</pre>
